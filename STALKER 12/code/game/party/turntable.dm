@@ -85,6 +85,8 @@
 		new /datum/data/turntable_soundtrack ("Phantasmagoria",		"Poziv U Raj",						'sound/turntable/poziv_u_raj.ogg',							1110),
 		new /datum/data/turntable_soundtrack ("Tape Recorder",		"Dead Evening",						'sound/turntable/dead_evening.ogg',							1110),
 		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Sudno",							'sound/turntable/sudno.ogg',								1110),
+		new /datum/data/turntable_soundtrack ("Glukoza",		    "Schweine",							'sound/turntable/schweine.ogg',								2640),
+		new /datum/data/turntable_soundtrack ("KINO",		        "Spokoynaya Noch'",					'sound/turntable/SpokoynayaNoch.ogg',					    3820),
 	)
 	anchored = 1
 	density = 1
