@@ -93,7 +93,7 @@
 		new /datum/data/turntable_soundtrack ("Venetian Snares",	"Black Sabbath",					'sound/turntable/Snares-BlackSabbath.ogg',					1110),
 		new /datum/data/turntable_soundtrack ("Glintshake",			"Steppe is the Place",				'sound/turntable/Glintshake_SteppeisthePlace.ogg',			1110),
 		new /datum/data/turntable_soundtrack ("Glukoza",			"Schweine",				            'sound/turntable/schweine.ogg',			                    2640),
-		new /datum/data/turntable_soundtrack ("KINO",			    "Spokoynaya Noch'",				    'sound/turntable/SpokoynayaNoch.ogg',			            3820),
+		new /datum/data/turntable_soundtrack ("KINO",			    "Spokoynaya Noch'",				    'sound/turntable/SpokoynayaNoch.ogg',			            3820)
 	)
 	anchored = 1
 	density = 1
