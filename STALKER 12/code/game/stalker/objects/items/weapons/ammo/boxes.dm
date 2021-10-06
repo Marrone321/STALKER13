@@ -162,7 +162,7 @@
 	name = "ammo box (7.62x39mm)"
 	desc = "A box of seven-six-two by thirty-nine rounds."
 	eng_desc = "A box of seven-six-two by thirty-nine rounds."
-	ammo_type = /obj/item/ammo_casing/c762x25
+	ammo_type = /obj/item/ammo_casing/c762x39
 	icon_state = "762x39"
 	max_ammo = 90
 	multiple_sprites = 2
