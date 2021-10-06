@@ -119,6 +119,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Desert Eagle Magazine",					"Desert Eagle Magazine",				/obj/item/ammo_box/magazine/stalker/desert,				2000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PKM ammo belt box",						"PKM ammo belt box",					/obj/item/ammo_box/magazine/stalker/pkm,				20000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("7.62x51 Clip",							"7.62x51 Clip",							/obj/item/ammo_box/stalker/cl762x51,					800,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x54 Clip",							"7.62x54 Clip",							/obj/item/ammo_box/stalker/cl762x54,					1600,	ROOKIE),
 		new /datum/data/stalker_equipment("7.62x39 Ammo Pouch",						"7.62x39 Ammo Pouch",					/obj/item/ammo_box/magazine/stalker/sks,				600,	ROOKIE)
 		),
 
