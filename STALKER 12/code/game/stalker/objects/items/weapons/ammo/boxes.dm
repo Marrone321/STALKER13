@@ -164,7 +164,7 @@
 	eng_desc = "A box of seven-six-two by thirty-nine rounds."
 	ammo_type = /obj/item/ammo_casing/c762x25
 	icon_state = "762x39"
-	max_ammo = 50
+	max_ammo = 90
 	multiple_sprites = 2
 
 /obj/item/ammo_box/stalker/b762x51

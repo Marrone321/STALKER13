@@ -93,6 +93,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("5.45x39mm Ammo AP Box",			"5.45x39mm Ammo AP Box",					/obj/item/ammo_box/stalker/b545ap,			12000,	VETERAN),
 		new /datum/data/stalker_equipment("5.56x45mm Ammo Box",				"5.56x45mm Ammo Box",						/obj/item/ammo_box/stalker/b55645,			10000,	ROOKIE),
 		new /datum/data/stalker_equipment("5.56x45mm Ammo AP Box",			"5.56x45mm Ammo AP Box",					/obj/item/ammo_box/stalker/b55645ap,		15000,	VETERAN),
+		new /datum/data/stalker_equipment("7.62x39mm Ammo Box",				"7.62x39mm Ammo box",						/obj/item/ammo_box/stalker/b762x39,			6000,	ROOKIE),
 		new /datum/data/stalker_equipment("7.62x51 Ammo Box",				"7.62x51 Ammo Box",							/obj/item/ammo_box/stalker/b762x51,			8000,	ROOKIE),
 		new /datum/data/stalker_equipment("7.62x54 Ammo Bag",				"7.62x54 Ammo Bag",							/obj/item/ammo_box/stalker/b762x54,			8000,	ROOKIE),
 		new /datum/data/stalker_equipment("9x39mm PAB-9 Ammo Box",			"9x39mm PAB-9 Ammo Box",					/obj/item/ammo_box/stalker/b939,			10000,	EXPERIENCED)
