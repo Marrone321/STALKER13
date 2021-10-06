@@ -324,8 +324,8 @@
 
 /obj/item/weapon/gun/projectile/automatic/akm
 	name = "AKM"
-	desc = "Despite being similar to submachineguns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity."
-	eng_desc = "Despite being similar to submachineguns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity."
+	desc = "The AKM is a 7.62×39mm assault rifle designed by Mikhail Kalashnikov. It is a common modernised variant of the AK-47 rifle developed in the 1940s. Introduced into service with the Soviet Army in 1959, the AKM is the prevalent variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its African and Asian allies as well as being widely exported and produced in many other countries."
+	eng_desc = "The AKM is a 7.62×39mm assault rifle designed by Mikhail Kalashnikov. It is a common modernised variant of the AK-47 rifle developed in the 1940s. Introduced into service with the Soviet Army in 1959, the AKM is the prevalent variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its African and Asian allies as well as being widely exported and produced in many other countries."
 	icon_state = "akm"
 	item_state = "akm"
 	slot_flags = SLOT_BACK
