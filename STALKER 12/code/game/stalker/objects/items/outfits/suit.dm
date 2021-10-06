@@ -992,7 +992,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	max_heat_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 	flags_inv = HIDEJUMPSUIT
 	unacidable = 1
-	armor = list(melee = 25, bullet = 20, laser = 50,burn = 55, bomb = 0, bio = 20, rad = 40, electro = 65, psy = 0)
+	armor = list(melee = 30, bullet = 30, laser = 50,burn = 55, bomb = 0, bio = 20, rad = 40, electro = 65, psy = 0)
 	durability = 200
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/strazh
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
