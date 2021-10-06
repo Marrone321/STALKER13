@@ -75,6 +75,15 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	icon_state_opened = "toxin_open"
 	desc_opened = "Opened injector."
 
+/obj/item/weapon/reagent_containers/pill/stalker/injector/oxygen
+	name = "blood oxygenation injector"
+	icon_state = "oxygen"
+	desc = "Small yet effective oxygenation injector. 15 units in one injector."
+	eng_desc = "Small yet effective oxygenation injector. 15 units in one injector."
+	list_reagents = list("salbutamol" = 15)
+	icon_state_opened = "oxygen_open"
+	desc_opened = "Opened injector."
+
 /obj/item/weapon/reagent_containers/pill/stalker/injector/blood
 	name = "blood-refilling coagulant injector"
 	icon_state = "blood"
@@ -93,4 +102,24 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	item_state = "painkiller"
 	list_reagents = list("mine_salve" = 30)
 	icon_state_opened = "painkiller_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/epinephrine
+	name = "epinephrine injector"
+	icon_state = "epipen"
+	desc = "Generic epinephrine injector for the critically wounded. 15 units in one injector."
+	eng_desc = "Generic epinephrine injector for the critically wounded. 15 units in one injector."
+	item_state = "epipen"
+	list_reagents = list("epinephrine" = 15)
+	icon_state_opened = "epipen_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/antirad
+	name = "antirad injector"
+	icon_state = "radanti"
+	desc = "Antiradiation chemicals that treat radiation sickness and intoxication. 15 units in one injector. Might deal some mild bruisings."
+	eng_desc = "Antiradiation chemicals that treat radiation sickness and intoxication. 15 units in one injector. Might deal some mild bruisings."
+	item_state = "radanti"
+	list_reagents = list("pen_acid" = 15)
+	icon_state_opened = "radanti_open"
 	desc_opened = "Opened injector."

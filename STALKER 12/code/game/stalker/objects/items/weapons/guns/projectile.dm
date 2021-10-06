@@ -322,6 +322,30 @@
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 
+/obj/item/weapon/gun/projectile/automatic/akm
+	name = "AKM"
+	desc = "Despite being similar to submachineguns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity."
+	eng_desc = "Despite being similar to submachineguns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity."
+	icon_state = "akm"
+	item_state = "akm"
+	slot_flags = SLOT_BACK
+	force = 15
+	origin_tech = "combat=3;materials=1"
+	mag_type = /obj/item/ammo_box/magazine/stalker/a762x39
+	fire_sound = 'sound/stalker/weapons/ak74u_shot.ogg'
+	can_suppress = 0
+	burst_size = 3
+	fire_delay = 1.7
+	pin = /obj/item/device/firing_pin
+	durability = 150
+	w_class = 4
+	spread = 12
+	recoil = 0.9
+	damagelose = 0.25
+	can_scope = 0
+	weapon_weight = WEAPON_MEDIUM
+	drawsound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
+
 /*
 /obj/item/weapon/gun/projectile/automatic/aksu74/black
 	colored = "black"
@@ -472,7 +496,7 @@
 	opensound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/weapon/gun/projectile/automatic/abakan
-	name = "AC-96"
+	name = "AN-94"
 	desc = "A modern assault rifle developed as a replacement for the ageing AK-74. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armor piercing capability."
 	eng_desc = "A modern assault rifle developed as a replacement for the ageing AK-74. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armor piercing capability."
 	icon_state = "abakan"

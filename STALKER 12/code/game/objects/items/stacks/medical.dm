@@ -12,7 +12,7 @@
 	var/heal_brute = 0
 	var/heal_burn = 0
 	var/stop_bleeding = 0
-	var/self_delay = 50
+	var/self_delay = 20
 
 /obj/item/stack/medical/attack(mob/living/M, mob/user)
 
@@ -98,6 +98,8 @@
 	singular_name = "bruise pack"
 	desc = "A theraputic gel pack and bandages designed to treat blunt-force trauma."
 	icon_state = "brutepack"
+	amount = 8
+	max_amount = 8
 	heal_brute = 40
 	origin_tech = "biotech=1"
 
@@ -108,7 +110,7 @@
 	singular_name = "medical gauze"
 	icon_state = "gauze"
 	stop_bleeding = 1800
-	self_delay = 20
+	self_delay = 10
 
 /obj/item/stack/medical/gauze/improvised
 	name = "improvised gauze"
@@ -127,5 +129,7 @@
 	gender = PLURAL
 	singular_name = "ointment"
 	icon_state = "ointment"
+	amount = 8
+	max_amount = 8
 	heal_burn = 40
 	origin_tech = "biotech=1"

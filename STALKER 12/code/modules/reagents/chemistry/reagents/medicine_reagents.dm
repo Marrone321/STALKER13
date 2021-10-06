@@ -519,7 +519,7 @@ datum/reagent/medicine/synthflesh/overdose_process(mob/living/M)
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
 
 /datum/reagent/medicine/salbutamol/on_mob_life(mob/living/M)
-	M.adjustOxyLoss(-3*REM)
+	M.adjustOxyLoss(-6*REM)
 	if(M.losebreath >= 4)
 		M.losebreath -= 2
 	..()

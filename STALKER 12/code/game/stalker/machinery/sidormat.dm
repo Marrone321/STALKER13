@@ -29,7 +29,9 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("MP-5",				"MP-5",				/obj/item/weapon/gun/projectile/automatic/mp5,					18000,	ROOKIE),
 		new /datum/data/stalker_equipment("AK-74S",				"AK-74S",			/obj/item/weapon/gun/projectile/automatic/aksu74,				24000,	ROOKIE),
 		new /datum/data/stalker_equipment("AK-74",				"AK-74",			/obj/item/weapon/gun/projectile/automatic/ak74,					30000,	ROOKIE),
-		new /datum/data/stalker_equipment("AS-96",				"AS-96",			/obj/item/weapon/gun/projectile/automatic/abakan,				40000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("AKM",				"AKM",				/obj/item/weapon/gun/projectile/automatic/akm,					25000,	ROOKIE),
+		new /datum/data/stalker_equipment("AN-94",				"AN-94",			/obj/item/weapon/gun/projectile/automatic/abakan,				40000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("M16A1",				"M16A1",			/obj/item/weapon/gun/projectile/automatic/m16a1,				30000,	ROOKIE),
 		new /datum/data/stalker_equipment("LR-300",				"LR-300",			/obj/item/weapon/gun/projectile/automatic/tpc301,				40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("L85",				"L85",				/obj/item/weapon/gun/projectile/automatic/il86,					40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("OTS-14 \"Thunder\"", "OTS-14 \"Thunder\"",/obj/item/weapon/gun/projectile/automatic/groza,				35000,	EXPERIENCED),
@@ -48,12 +50,15 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("TOZ-34",				"TOZ-34", 			/obj/item/weapon/gun/projectile/revolver/bm16/toz34,			15000,	ROOKIE),
 		new /datum/data/stalker_equipment("Ithaca M37",			"Ithaca M37",		/obj/item/weapon/gun/projectile/shotgun/ithaca,					20000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Winchester 1300",	"Winchester 1300",	/obj/item/weapon/gun/projectile/shotgun/chaser,					30000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("SPAS-12",			"SPAS-12",			/obj/item/weapon/gun/projectile/shotgun/spsa,					75000,	VETERAN)
+		new /datum/data/stalker_equipment("SPAS-12",			"SPAS-12",			/obj/item/weapon/gun/projectile/shotgun/spsa,					50000,	VETERAN),
+		new /datum/data/stalker_equipment("Saiga-12",			"Saiga-12",			/obj/item/weapon/gun/projectile/automatic/saiga,				75000,	VETERAN)
 	),
 
 	// Single-shot Rifles
 	"Rifles" = list(
 		new /datum/data/stalker_equipment("Lee Enfield",		"Lee Enfield",		/obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/enfield,		15000,	ROOKIE),
+		new /datum/data/stalker_equipment("SKS",				"SKS",				/obj/item/weapon/gun/projectile/shotgun/automatic/sks,					10000,	ROOKIE),
+		new /datum/data/stalker_equipment("Mosin obrez",		"Mosin obrez",		/obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/sawnoff,		8000,	ROOKIE),
 		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",		/obj/item/weapon/gun/projectile/automatic/vintorez,						60000,	EXPERT)
 	),
 
@@ -89,6 +94,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("5.56x45mm Ammo Box",				"5.56x45mm Ammo Box",						/obj/item/ammo_box/stalker/b55645,			10000,	ROOKIE),
 		new /datum/data/stalker_equipment("5.56x45mm Ammo AP Box",			"5.56x45mm Ammo AP Box",					/obj/item/ammo_box/stalker/b55645ap,		15000,	VETERAN),
 		new /datum/data/stalker_equipment("7.62x51 Ammo Box",				"7.62x51 Ammo Box",							/obj/item/ammo_box/stalker/b762x51,			8000,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x54 Ammo Bag",				"7.62x54 Ammo Bag",							/obj/item/ammo_box/stalker/b762x54,			8000,	ROOKIE),
 		new /datum/data/stalker_equipment("9x39mm PAB-9 Ammo Box",			"9x39mm PAB-9 Ammo Box",					/obj/item/ammo_box/stalker/b939,			10000,	EXPERIENCED)
 	),
 
@@ -101,7 +107,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("PPSh Drum",								"PPSh Drum",							/obj/item/ammo_box/magazine/stalker/ppsh,				5000,	ROOKIE),
 		new /datum/data/stalker_equipment("5.45x39mm Magazine",						"5.45x39mm Magazine",					/obj/item/ammo_box/magazine/stalker/m545,				2250,	ROOKIE),
 		new /datum/data/stalker_equipment("5.56x45mm Magazine",						"5.56x45mm Magazine",					/obj/item/ammo_box/magazine/stalker/m556x45,			3500,	ROOKIE),
-		new /datum/data/stalker_equipment("7.62x39mm Magazine",						"7.62x39mm Magazine",					/obj/item/ammo_box/magazine/stalker/a762x39,	 		3000,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x39mm Magazine",						"7.62x39mm Magazine",					/obj/item/ammo_box/magazine/stalker/a762x39,	 		2750,	ROOKIE),
+		new /datum/data/stalker_equipment("Saiga Magazine",							"Saiga Magazine",						/obj/item/ammo_box/magazine/stalker/saiga,				5000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("AS \"Val\" Magazine",					"AS \"Val\" Magazine",					/obj/item/ammo_box/magazine/stalker/sp9x39val,			3000,	VETERAN),
 		new /datum/data/stalker_equipment("OTS-14 \"Thunder\" Magazine",			"OTS-14 \"Thunder\" Magazine",			/obj/item/ammo_box/magazine/stalker/sp9x39groza,		3500,	EXPERIENCED),
 		new /datum/data/stalker_equipment("VSS \"Vintorez\" Magazine",				"VSS \"Vintorez\" Magazine",			/obj/item/ammo_box/magazine/stalker/sp9x39vint,			3000,	VETERAN),
@@ -111,7 +118,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("USP-match Magazine",						"USP-match Magazine",					/obj/item/ammo_box/magazine/stalker/usp45,				2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Desert Eagle Magazine",					"Desert Eagle Magazine",				/obj/item/ammo_box/magazine/stalker/desert,				2000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PKM ammo belt box",						"PKM ammo belt box",					/obj/item/ammo_box/magazine/stalker/pkm,				20000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("7.62x51 Clip",							"7.62x51 Clip",							/obj/item/ammo_box/stalker/cl762x51,					800,	ROOKIE)
+		new /datum/data/stalker_equipment("7.62x51 Clip",							"7.62x51 Clip",							/obj/item/ammo_box/stalker/cl762x51,					800,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x39 Ammo Pouch",						"7.62x39 Ammo Pouch",					/obj/item/ammo_box/magazine/stalker/sks,				600,	ROOKIE)
 		),
 
 	/** Outer Clothing **/
@@ -209,7 +217,9 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Zippo lighter",						"Zippo lighter",						/obj/item/weapon/lighter,										5000,	ROOKIE),
 		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Cigarettes \"Maxim\"",					/obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim,		2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Cigars",								"Cigars",								/obj/item/weapon/storage/fancy/cigarettes/cigars,				10000,	ROOKIE),
-		new /datum/data/stalker_equipment("Circle Flask",						"Circle Flask",							/obj/item/weapon/reagent_containers/food/drinks/flask/circle,	1000,	ROOKIE)
+		new /datum/data/stalker_equipment("Weed Rollie",						"Weed Rollie",							/obj/item/clothing/mask/cigarette/rollie/trippy,				2000,	ROOKIE,faction = "Freedom"),
+		new /datum/data/stalker_equipment("Circle Flask",						"Circle Flask",							/obj/item/weapon/reagent_containers/food/drinks/flask/circle,	1000,	ROOKIE),
+		new /datum/data/stalker_equipment("Zipties",							"Zipties",								/obj/item/weapon/restraints/handcuffs/cable/zipties,			3000,	ROOKIE)
 
 		),
 	"Clothing" = list(
@@ -312,10 +322,10 @@ var/list/global_sidormat_list = list(
 		/////////////////////////////////	Weapons	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Wooden Hatchet",			"Wooden Hatchet",				/obj/item/weapon/kitchen/knife/hatchet,				500,	ROOKIE,	sale_price = 500),
 		/////////////////////////////////	Medkit components	//////////////////////////////////////////////////
-		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,											25,	ROOKIE,	sale_price = 25),
-		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,										25,	ROOKIE,	sale_price = 25),
-		new /datum/data/stalker_equipment("Pill of Charcoal",			"Pill of Charcoal",				/obj/item/weapon/reagent_containers/pill/charcoal,							125,	ROOKIE,	sale_price = 125),
-		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/weapon/reagent_containers/hypospray/medipen,						125,	ROOKIE,	sale_price = 125),
+		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,											25,		ROOKIE,	sale_price = 25),
+		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,										25,		ROOKIE,	sale_price = 25),
+		new /datum/data/stalker_equipment("Charcoal Pill",				"Charcoal Pill",				/obj/item/weapon/reagent_containers/pill/charcoal,							125,	ROOKIE,	sale_price = 125),
+		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/weapon/reagent_containers/pill/stalker/injector/epinephrine,		125,	ROOKIE,	sale_price = 125),
 		new /datum/data/stalker_equipment("Brute Patch",				"Brute Patch",					/obj/item/weapon/reagent_containers/pill/patch/styptic,						250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Burn Patch",					"Burn Patch",					/obj/item/weapon/reagent_containers/pill/patch/silver_sulf,					250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Combat Patch",				"Combat Patch",					/obj/item/weapon/reagent_containers/pill/patch/synthflesh,					250,	ROOKIE,	sale_price = 250),
@@ -324,6 +334,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Blood Injector",				"Blood Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/blood,			250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Painkillers Injector",		"Painkillers Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller,		250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Antitoxin Injector",			"Antitoxin Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/toxin,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Oxygen Injector",			"Oxygen Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/oxygen,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Antirad Injector",			"Antirad Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/antirad,			250,	ROOKIE,	sale_price = 250),
 		/////////////////////////////////	Junk	//////////////////////////////////////////////////
 		new /datum/data/stalker_equipment("Metal Hip Flask",			"Metal Hip Flask",				/obj/item/weapon/reagent_containers/food/drinks/flask,						250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Russian Flask",				"Russian Flask",				/obj/item/weapon/reagent_containers/food/drinks/flask/russian,				250,	ROOKIE,	sale_price = 250),
@@ -376,7 +388,7 @@ var/list/global_sidormat_list = list(
 	var/rating = 0
 	var/switches = BUY_STUFF
 	var/real_assorment = list()
-	var/list/special_factions = list("Loners", "Bandits", "Duty", "Freedom", "Mercenaries", "Monolith","Traders")
+	var/list/special_factions = list("Loners", "Bandits", "Duty", "Freedom", "Mercenaries", "Monolith","Traders","Ecologists")
 	var/path_ending = null
 	//Faction Locker
 	var/obj/item/device/assembly/control/door_device = null
@@ -511,7 +523,7 @@ var/list/global_sidormat_list = list(
 				continue
 			dat += "<tr><td><center><big><b>[L]</b></big></center></td><td></td><td></td></tr>"
 			for(var/datum/data/stalker_equipment/prize in global_sidormat_list[L])
-				if((sk.fields["faction_s"] == prize.faction && ((sk.fields["faction_s"] in special_factions) || (switches & SHOW_FACTION_EQUIPMENT))) || prize.faction == "Everyone")
+				if((sk.fields["faction_s"] == prize.faction && ((sk.fields["faction_s"] in special_factions) || (switches & SHOW_FACTION_EQUIPMENT))) || prize.faction == "Everyone" || prize.faction == "Traders")
 					//if(rating >= prize.rating)
 					if(get_assortment_level(H) >= prize.assortment_level)
 						dat += "<tr><td>[prize.name]</td><td>[prize.cost]</td><td><A href='?src=\ref[src];purchase=\ref[prize]'>Buy</A></td></tr>"
