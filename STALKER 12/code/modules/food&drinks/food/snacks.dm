@@ -19,7 +19,7 @@
 	var/junkiness = 0  //for junk food. used to lower human satiety.
 	var/list/bonus_reagents = list() //the amount of reagents (usually nutriment and vitamin) added to crafted/cooked snacks, on top of the ingredients reagents.
 	var/customfoodfilling = 1 // whether it can be used as filling in custom food
-
+	var/taste_description //How does it taste?
 	//Placeholder for effect that trigger on eating that aren't tied to reagents.
 /obj/item/weapon/reagent_containers/food/snacks/proc/On_Consume()
 	if(!usr)	return
@@ -63,10 +63,11 @@
 			if(junkiness && M.satiety < -150 && M.nutrition > NUTRITION_LEVEL_STARVING + 50 )
 				M << "<span class='notice'>You don't feel like eating any more junk food at the moment.</span>"
 				return 0
-
 			if(wrapped)
 				M << "<span class='warning'>You should unwrap [src] first!</span>"
 				return 0
+			if(taste_description)
+				M << "<span class='notice'>You can taste [taste_description].</span>"
 			else if(fullness <= 50)
 				user.visible_message("<span class='notice'>[user] hungrily takes a [eatverb] from \the [src], gobbling it down!</span>", "<span class='notice'>You hungrily take a [eatverb] from \the [src], gobbling it down!</span>")
 			else if(fullness > 50 && fullness < 150)
