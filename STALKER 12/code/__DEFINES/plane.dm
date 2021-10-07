@@ -9,6 +9,7 @@
 #define AREA_LAYER				1
 #define TURF_LAYER				2
 #define OBJ_LAYER				3
+#define ABOVE_OBJ_LAYER			3.1
 #define MOB_LAYER				4
 
 #define SMOOTH_TURF_LAYER		2.3

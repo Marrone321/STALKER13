@@ -457,3 +457,9 @@ var/datum/subsystem/job/SSjob
 	player << "<b>You have failed to qualify for any job you desired.</b>"
 	unassigned -= player
 	player.ready = 0
+
+/datum/subsystem/job/proc/GiveKeypadCodes(mob/living/H, rank)
+	for(var/obj/machinery/button/door/keypad/faction/K in all_faction_keypads)
+		if(rank in K.allowed_jobs)
+			H.mind.memory += "<BR><b>You remember that the code for [K.name] is [K.correctcode].</b>"
+			H << "<span class = 'notice'>You remember that the code for [K.name] is [K.correctcode].</span>"
