@@ -14,14 +14,13 @@
 		/obj/item/weapon/reagent_containers/pill/patch,
 		/obj/item/stack/medical,
 		/obj/item/weapon/reagent_containers/pill/stalker/injector,
-		/obj/item/weapon/reagent_containers/hypospray
 		)
 
 /obj/item/weapon/storage/firstaid/stalker/civillian
 	name = "civillian medkit"
 	icon_state = "aptechkar"
 	desc = "An all-purpose medkit. Used to treat injuries of various types and severities - wounds, burns, poisonings, etc."
-	storage_slots = 5
+	storage_slots = 6
 
 /obj/item/weapon/storage/firstaid/stalker/civillian/New()
 	..()
@@ -30,14 +29,15 @@
 	new /obj/item/stack/medical/ointment(src)
 	new /obj/item/stack/medical/bruise_pack(src)
 	new /obj/item/weapon/reagent_containers/pill/charcoal(src)
-	new /obj/item/weapon/reagent_containers/hypospray/medipen(src)
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/oxygen(src)
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/epinephrine(src)
 	return
 
 /obj/item/weapon/storage/firstaid/stalker/military
 	name = "military medkit"
 	icon_state = "aptechkab"
 	desc = "A specialized medical set to fight against physical damage and blood loss. In it is included a component for blood coagulation, antibiotics, immunal stimulators, and painkillers."
-	storage_slots = 7
+	storage_slots = 8
 
 /obj/item/weapon/storage/firstaid/stalker/military/New()
 	..()
@@ -49,13 +49,15 @@
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/blood(src) //blood coagulation and blood loss
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller(src) //painkillers
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/toxin(src) //antibiotics and immunal stimulants
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/oxygen(src) //countering suffocation that CAN'T BE TREATED APPARENTLY
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/epinephrine(src)
 	return
 
 /obj/item/weapon/storage/firstaid/stalker/scientific
 	name = "scientific medkit"
 	icon_state = "aptechkay"
 	desc = "High end medical set designed for use in The Zone. This medkit includes items used to stop bleeding, treat burns, clean wounds, and treat a variety of different injuries. It also includes anti-radiation pills and medicine."
-	storage_slots = 7
+	storage_slots = 8
 
 /obj/item/weapon/storage/firstaid/stalker/scientific/New()
 	..()
@@ -66,7 +68,9 @@
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/blood(src)
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller(src)
 	new /obj/item/weapon/reagent_containers/pill/stalker/injector/toxin(src)
-	new /obj/item/weapon/reagent_containers/hypospray/medipen/stalker/antirad(src)
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/oxygen(src)
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/epinephrine(src)
+	new /obj/item/weapon/reagent_containers/pill/stalker/injector/antirad(src)
 	return
 
 /obj/item/stack/medical/gauze/bint

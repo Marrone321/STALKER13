@@ -254,5 +254,6 @@
 	damagelose = 0.45
 	distro = 15
 	can_scope = 1
+	burst_size = 1
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
