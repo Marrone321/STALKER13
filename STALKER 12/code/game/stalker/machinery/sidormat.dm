@@ -229,7 +229,12 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Defibrillator",						"Defibrillator",						/obj/item/weapon/defibrillator/compact/combat/loaded,			90000,	EXPERIENCED,faction = "Ecologist"),
 		new /datum/data/stalker_equipment("Secure Briefcase",					"Secure Briefcase",						/obj/item/weapon/storage/secure/briefcase,						10000,	EXPERIENCED,faction = "Ecologist"),
 		new /datum/data/stalker_equipment("Empty Syringe",						"Empty Syringe",						/obj/item/weapon/reagent_containers/syringe,					1000,	ROOKIE,faction = "Ecologist"),
-		new /datum/data/stalker_equipment("Black Gloves",						"Black Gloves",							/obj/item/clothing/gloves/color/black,							2500,	ROOKIE)
+		new /datum/data/stalker_equipment("Black Gloves",						"Black Gloves",							/obj/item/clothing/gloves/color/black,							2500,	ROOKIE),
+		new /datum/data/stalker_equipment("50 RU",								"50 RU",								/obj/item/stack/spacecash/c50,									50,		ROOKIE,	sale_price = 50),
+		new /datum/data/stalker_equipment("100 RU",								"100 RU",								/obj/item/stack/spacecash/c100,									100,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("500 RU",								"500 RU",								/obj/item/stack/spacecash/c500,									500,	ROOKIE,	sale_price = 500),
+		new /datum/data/stalker_equipment("1000 RU",							"1000 RU",								/obj/item/stack/spacecash/c1000,								1000,	ROOKIE,	sale_price = 1000),
+		new /datum/data/stalker_equipment("5000 RU",							"5000 RU",								/obj/item/stack/spacecash/c5000,								5000,	ROOKIE,	sale_price = 5000)
 
 		),
 	"Clothing" = list(
@@ -310,12 +315,6 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Konserva",			"Konserva",							/obj/item/trash/konserva/govyadina,					400,	ROOKIE),
 		new /datum/data/stalker_equipment("Konserva",			"Konserva",							/obj/item/trash/konserva/shproti,					600,	ROOKIE),
 		new /datum/data/stalker_equipment("Konserva",			"Konserva",							/obj/item/trash/konserva/soup,						500,	ROOKIE),
-		///////////////////////////////////////////////////////////////////////////////////////////
-		new /datum/data/stalker_equipment("50 RU",				"50 RU",							/obj/item/stack/spacecash/c50,						50,		ROOKIE,	sale_price = 50),
-		new /datum/data/stalker_equipment("100 RU",				"100 RU",							/obj/item/stack/spacecash/c100,						100,	ROOKIE,	sale_price = 100),
-		new /datum/data/stalker_equipment("500 RU",				"500 RU",							/obj/item/stack/spacecash/c500,						500,	ROOKIE,	sale_price = 500),
-		new /datum/data/stalker_equipment("1000 RU",			"1000 RU",							/obj/item/stack/spacecash/c1000,					1000,	ROOKIE,	sale_price = 1000),
-		new /datum/data/stalker_equipment("5000 RU",			"5000 RU",							/obj/item/stack/spacecash/c5000,					5000,	ROOKIE,	sale_price = 5000),
 		///////////////////////////////////		Clothing/Equipment	///////////////////////////////////////////////
 		new /datum/data/stalker_equipment("Hunter Coat",					"Hunter Coat",				/obj/item/clothing/suit/huntercoat,							5000,	ROOKIE,	sale_price = 5000),
 		new /datum/data/stalker_equipment("GP-5",							"GP-5",						/obj/item/clothing/mask/gas/stalker/gp5,					1250,	ROOKIE,	sale_price = 1250),
