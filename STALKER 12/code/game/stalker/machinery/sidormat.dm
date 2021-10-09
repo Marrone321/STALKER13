@@ -228,7 +228,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Mass-Spectrometer",					"Mass-Spectrometer",					/obj/item/device/mass_spectrometer/adv,							15000,	EXPERIENCED,faction = "Ecologist"),
 		new /datum/data/stalker_equipment("Defibrillator",						"Defibrillator",						/obj/item/weapon/defibrillator/compact/combat/loaded,			90000,	EXPERIENCED,faction = "Ecologist"),
 		new /datum/data/stalker_equipment("Secure Briefcase",					"Secure Briefcase",						/obj/item/weapon/storage/secure/briefcase,						10000,	EXPERIENCED,faction = "Ecologist"),
-		new /datum/data/stalker_equipment("Empty Syringe",					"Empty Syringe",							/obj/item/weapon/reagent_containers/syringe,					1000,	ROOKIE,faction = "Ecologist")
+		new /datum/data/stalker_equipment("Empty Syringe",						"Empty Syringe",						/obj/item/weapon/reagent_containers/syringe,					1000,	ROOKIE,faction = "Ecologist"),
+		new /datum/data/stalker_equipment("Black Gloves",						"Black Gloves",							/obj/item/clothing/gloves/color/black,							2500,	ROOKIE)
 
 		),
 	"Clothing" = list(
