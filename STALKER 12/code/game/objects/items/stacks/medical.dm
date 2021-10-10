@@ -15,7 +15,7 @@
 	var/self_delay = 20
 
 /obj/item/stack/medical/attack(mob/living/M, mob/user)
-
+/*
 	if(M.stat == 2)
 		var/t_him = "it"
 		if(M.gender == MALE)
@@ -24,7 +24,7 @@
 			t_him = "her"
 		user << "<span class='danger'>\The [M] is dead, you cannot help [t_him]!</span>"
 		return
-
+*/
 	if(!istype(M, /mob/living/carbon) && !istype(M, /mob/living/simple_animal))
 		user << "<span class='danger'>You don't know how to apply \the [src] to [M]!</span>"
 		return 1
