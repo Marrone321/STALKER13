@@ -354,8 +354,6 @@
 
 datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 1)
 	if(iscarbon(M))
-		var/mob/living/carbon/N = M
-		N.hal_screwyhud = 0
 		M.Stun(7)
 		M.Weaken(7)
 		if(show_message)
@@ -369,7 +367,7 @@ datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 
 /datum/reagent/medicine/mine_salve/on_mob_delete(mob/living/M)
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
-		N.hal_screwyhud = 0
+		N.hal_screwyhud &= ~5
 	..()
 
 /datum/reagent/medicine/synthflesh
@@ -521,7 +519,7 @@ datum/reagent/medicine/synthflesh/overdose_process(mob/living/M)
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
 
 /datum/reagent/medicine/salbutamol/on_mob_life(mob/living/M)
-	M.adjustOxyLoss(-3*REM)
+	M.adjustOxyLoss(-6*REM)
 	if(M.losebreath >= 4)
 		M.losebreath -= 2
 	..()

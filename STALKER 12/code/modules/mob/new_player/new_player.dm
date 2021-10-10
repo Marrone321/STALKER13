@@ -323,6 +323,7 @@
 			character.faction = list("stalker_forces")
 
 	SSjob.EquipRank(character, rank, 1)					//equips the human
+	SSjob.GiveKeypadCodes(character, rank)
 
 	var/D = null
 	if(istype(jobnamelatejoin["JoinLate" + rank], /list)) // Pick the spawn location

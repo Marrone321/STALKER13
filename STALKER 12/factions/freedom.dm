@@ -41,7 +41,7 @@
 	..()
 	head = null
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/veter
+	suit = /obj/item/clothing/suit/hooded/kombez/strazh
 	ears = null
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless

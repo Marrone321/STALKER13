@@ -910,7 +910,7 @@
 "rz" = (/obj/anomaly/tramplin,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/safezone)
 "rA" = (/obj/structure/stalker/cacheable/rozetka,/turf/stalker/floor/gryaz,/area/stalker/cordon/buildings)
 "rB" = (/obj/structure/stalker/cacheable/battery{tag = "icon-gazovaya_truba (WEST)"; icon_state = "gazovaya_truba"; dir = 8},/turf/stalker/floor/gryaz,/area/stalker/cordon/buildings)
-"rC" = (/obj/machinery/button/door/keypad{layer = 3.1; pixel_x = -31; pixel_y = 1; id = 9898; correctcode = "19742"; keycode = "0000"},/turf/stalker/floor/lattice{icon_state = "lattice_new2"},/area/stalker/cordon/buildings)
+"rC" = (/obj/machinery/button/door/keypad/faction{allowed_jobs = list("Ecologist","Chief Ecologist"); id = 9898; name = "Ecologist Lab Keypad"; pixel_x = -32},/turf/stalker/floor/lattice{icon_state = "lattice_new2"},/area/stalker/cordon/buildings)
 "rD" = (/obj/structure/stalker/propane/dual{pixel_x = 7; pixel_y = 6},/turf/stalker/floor/plasteel/plitochka,/area/stalker/cordon/buildings)
 "rE" = (/obj/structure/stalker/bunker{icon_state = "1"},/turf/stalker/floor/lattice{icon_state = "lattice_new2"},/area/stalker/blowout/outdoor)
 "rF" = (/obj/structure/stalker/bunker{icon_state = "29"},/turf/simulated/wall/stalker/ship,/area/stalker/blowout/outdoor)
