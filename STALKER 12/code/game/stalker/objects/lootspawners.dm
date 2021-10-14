@@ -5,29 +5,29 @@
 	lootcount = 5
 
 	loot = list(
-				/obj/item/weapon/reagent_containers/hypospray/medipen/stalker/antirad = 20,
-				/obj/item/weapon/storage/firstaid/stalker/civillian = 20,
-				/obj/item/weapon/gun/projectile/automatic/pistol/pm = 5,
-				/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 5,
-				/obj/item/weapon/gun/projectile/automatic/pistol/pb1s = 5,
+				/obj/item/weapon/reagent_containers/hypospray/medipen/stalker/antirad = 10,
+				/obj/item/weapon/storage/firstaid/stalker/civillian = 10,
+				/obj/item/weapon/gun/projectile/automatic/pistol/pm = 3,
+				/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 3,
+				/obj/item/weapon/gun/projectile/automatic/pistol/pb1s = 3,
 				/obj/item/weapon/gun/projectile/automatic/mp5 = 1,
-				/obj/item/weapon/gun/projectile/revolver/bm16/sawnoff = 4,
-				/obj/item/weapon/gun/projectile/revolver/bm16 = 3,
-				/obj/item/ammo_box/stalker/b9x18 = 10,
-				/obj/item/ammo_box/stalker/b9x18P = 10,
-				/obj/item/ammo_box/stalker/b12x70 = 10,
-				/obj/item/ammo_box/stalker/b12x70P = 10,
-				/obj/item/ammo_box/stalker/b12x70D = 10,
-				/obj/item/ammo_box/stalker/b9x19 = 10,
-				/obj/item/ammo_box/stalker/b9x19P = 10,
+				/obj/item/weapon/gun/projectile/revolver/bm16/sawnoff = 2,
+				/obj/item/weapon/gun/projectile/revolver/bm16 = 1,
+				/obj/item/ammo_box/stalker/b9x18 = 5,
+				/obj/item/ammo_box/stalker/b9x18P = 5,
+				/obj/item/ammo_box/stalker/b12x70 = 5,
+				/obj/item/ammo_box/stalker/b12x70P = 5,
+				/obj/item/ammo_box/stalker/b12x70D = 5,
+				/obj/item/ammo_box/stalker/b9x19 = 5,
+				/obj/item/ammo_box/stalker/b9x19P = 5,
 				/obj/item/clothing/suit/hooded/kombez/mercenary = 1,
 				/obj/item/clothing/suit/hooded/kombez/kombez_bandit = 1,
 				/obj/item/clothing/suit/army = 1,
-				/obj/item/clothing/suit/hooded/kozhanka/banditka/coat = 2,
-				/obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown = 2,
-				/obj/item/clothing/mask/gas/stalker = 4,
-				/obj/item/device/detector/blink = 4,
-				/obj/nothing = 10
+				/obj/item/clothing/suit/hooded/kozhanka/banditka/coat = 1,
+				/obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown = 1,
+				/obj/item/clothing/mask/gas/stalker = 2,
+				/obj/item/device/detector/blink = 2,
+				/obj/nothing = 30
 				)
 
 /obj/effect/spawner/lootdrop/khabar_medium

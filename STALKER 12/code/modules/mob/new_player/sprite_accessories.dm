@@ -66,7 +66,7 @@
 /datum/sprite_accessory/hair/cut
 	name = "Cut Hair"
 	icon_state = "hair_c"
-
+/*
 /datum/sprite_accessory/hair/long
 	name = "Shoulder-length Hair"
 	icon_state = "hair_b"
@@ -159,11 +159,11 @@
 /datum/sprite_accessory/hair/parted
 	name = "Parted"
 	icon_state = "hair_parted"
-
+*/
 /datum/sprite_accessory/hair/pompadour
 	name = "Pompadour"
 	icon_state = "hair_pompadour"
-
+/*
 /datum/sprite_accessory/hair/bigpompadour
 	name = "Big Pompadour"
 	icon_state = "hair_bigpompadour"
@@ -171,7 +171,7 @@
 /datum/sprite_accessory/hair/quiff
 	name = "Quiff"
 	icon_state = "hair_quiff"
-
+*/
 /datum/sprite_accessory/hair/bedhead
 	name = "Bedhead"
 	icon_state = "hair_bedhead"
@@ -219,7 +219,7 @@
 /datum/sprite_accessory/hair/combover
 	name = "Combover"
 	icon_state = "hair_combover"
-
+/*
 /datum/sprite_accessory/hair/devillock
 	name = "Devil Lock"
 	icon_state = "hair_devilock"
@@ -227,7 +227,7 @@
 /datum/sprite_accessory/hair/dreadlocks
 	name = "Dreadlocks"
 	icon_state = "hair_dreads"
-
+*/
 /datum/sprite_accessory/hair/curls
 	name = "Curls"
 	icon_state = "hair_curls"
@@ -239,15 +239,15 @@
 /datum/sprite_accessory/hair/afro2
 	name = "Afro 2"
 	icon_state = "hair_afro2"
-
+/*
 /datum/sprite_accessory/hair/afro_large
 	name = "Big Afro"
 	icon_state = "hair_bigafro"
-
+*/
 /datum/sprite_accessory/hair/sargeant
 	name = "Flat Top"
 	icon_state = "hair_sargeant"
-
+/*
 /datum/sprite_accessory/hair/emo
 	name = "Emo"
 	icon_state = "hair_emo"
@@ -263,7 +263,7 @@
 /datum/sprite_accessory/hair/feather
 	name = "Feather"
 	icon_state = "hair_feather"
-
+*/
 /datum/sprite_accessory/hair/hitop
 	name = "Hitop"
 	icon_state = "hair_hitop"
@@ -299,7 +299,7 @@
 /datum/sprite_accessory/hair/protagonist
 	name = "Slightly long"
 	icon_state = "hair_protagonist"
-
+/*
 /datum/sprite_accessory/hair/kusangi
 	name = "Kusanagi Hair"
 	icon_state = "hair_kusanagi"
@@ -363,15 +363,15 @@
 /datum/sprite_accessory/hair/updo
 	name = "Updo"
 	icon_state = "hair_updo"
-
+*/
 /datum/sprite_accessory/hair/skinhead
 	name = "Skinhead"
 	icon_state = "hair_skinhead"
-
+/*
 /datum/sprite_accessory/hair/longbangs
 	name = "Long Bangs"
 	icon_state = "hair_lbangs"
-
+*/
 /datum/sprite_accessory/hair/balding
 	name = "Balding Hair"
 	icon_state = "hair_e"
@@ -435,7 +435,7 @@
 /datum/sprite_accessory/hair/business4
 	name = "Business Hair 4"
 	icon_state = "hair_business4"
-
+/*
 /datum/sprite_accessory/hair/hedgehog
 	name = "Hedgehog Hair"
 	icon_state = "hair_hedgehog"
@@ -459,11 +459,11 @@
 /datum/sprite_accessory/hair/pixie
 	name = "Pixie Cut"
 	icon_state = "hair_pixie"
-
+*/
 /datum/sprite_accessory/hair/megaeyebrows
 	name = "Mega Eyebrows"
 	icon_state = "hair_megaeyebrows"
-
+/*
 /datum/sprite_accessory/hair/highponytail
 	name = "High Ponytail"
 	icon_state = "hair_highponytail"
@@ -475,7 +475,7 @@
 /datum/sprite_accessory/hair/sidepartlongalt
 	name = "Long Side Part"
 	icon_state = "hair_longsidepart"
-
+*/
 /////////////////////////////
 // Facial Hair Definitions //
 /////////////////////////////
@@ -620,7 +620,7 @@
 	name = "Mens Striped Boxer"
 	icon_state = "male_stripe"
 	gender = MALE
-
+/*
 /datum/sprite_accessory/underwear/male_commie
 	name = "Mens Striped Commie Boxer"
 	icon_state = "male_commie"
@@ -635,7 +635,7 @@
 	name = "Mens Striped Freedom Boxer"
 	icon_state = "male_assblastusa"
 	gender = MALE
-/*
+
 /datum/sprite_accessory/underwear/male_kinky
 	name = "Mens Kinky"
 	icon_state = "male_kinky"
@@ -670,7 +670,7 @@
 	name = "Ladies Black"
 	icon_state = "female_black"
 	gender = FEMALE
-
+/*
 /datum/sprite_accessory/underwear/female_thong
 	name = "Ladies Thong"
 	icon_state = "female_thong"
@@ -680,7 +680,7 @@
 	name = "Babydoll"
 	icon_state = "female_babydoll"
 	gender = FEMALE
-
+*/
 /datum/sprite_accessory/underwear/female_babyblue
 	name = "Ladies Baby-Blue"
 	icon_state = "female_babyblue"
@@ -695,12 +695,12 @@
 	name = "Ladies Pink"
 	icon_state = "female_pink"
 	gender = FEMALE
-
+/*
 /datum/sprite_accessory/underwear/female_kinky
 	name = "Ladies Kinky"
 	icon_state = "female_kinky"
 	gender = FEMALE
-
+*/
 /datum/sprite_accessory/underwear/female_whitealt
 	name = "Ladies White Sport"
 	icon_state = "female_whitealt"
@@ -786,22 +786,24 @@
 	name = "Peace Shirt"
 	icon_state = "peace"
 	gender = NEUTER
-
+/*
 /datum/sprite_accessory/undershirt/mondmondjaja
 	name = "Band Shirt"
 	icon_state = "band"
 	gender = NEUTER
+*/
 /*
 /datum/sprite_accessory/undershirt/pacman
 	name = "Pogoman Shirt"
 	icon_state = "pogoman"
 	gender = NEUTER
 */
+/*
 /datum/sprite_accessory/undershirt/matroska
 	name = "Matroska Shirt"
 	icon_state = "matroska"
 	gender = NEUTER
-
+*/
 /datum/sprite_accessory/undershirt/whiteshortsleeve
 	name = "White Short-sleeved Shirt"
 	icon_state = "whiteshortsleeve"

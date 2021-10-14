@@ -278,7 +278,7 @@
 	icon_state_opened = "TushenkaGreen2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/MREkonserva2
-	taste_description = "poultry and various vegatables"
+	taste_description = "poultry and various vegetables"
 
 /obj/item/trash/konserva/MREkonserva2
 	name = "trash"
@@ -293,7 +293,7 @@
 	icon_state_opened = "TushenkaBlue2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2, "vitamin" = 10)
 	trash = /obj/item/trash/konserva/MREkonserva3
-	taste_description = "a wide variety of vegatables"
+	taste_description = "a wide variety of vegetables"
 
 /obj/item/trash/konserva/MREkonserva3
 	name = "trash"

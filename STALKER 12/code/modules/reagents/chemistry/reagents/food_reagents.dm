@@ -275,6 +275,7 @@
 
 /datum/reagent/mushroomhallucinogen/on_mob_life(mob/living/M)
 	M.druggy = max(M.druggy, 30)
+	M.adjustPsyLoss(-40)
 	switch(current_cycle)
 		if(1 to 5)
 			if (!M.slurring)

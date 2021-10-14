@@ -288,16 +288,16 @@
 	sound = 'sound/stalker/anomalies/gravi_blowout1.ogg'
 	idle_luminosity = 0
 	activated_luminosity = 0
-	inactive_icon_state = "tramplin0"
-	active_icon_state = "tramplin1"
+	inactive_icon_state = "karusel0"
+	active_icon_state = "karusel1"
 	damage_type = DMG_TYPE_GIB
 	active_invisibility = 0
 	inactive_invisibility = 0
-	loot = list(/obj/nothing = 80,
-				/obj/item/weapon/artifact/meduza = 12,
-				/obj/item/weapon/artifact/stoneflower = 5,
-				/obj/item/weapon/artifact/nightstar = 2,
-				/obj/item/weapon/artifact/soul = 1
+	loot = list(/obj/nothing = 76,
+				/obj/item/weapon/artifact/meduza = 10,
+				/obj/item/weapon/artifact/stoneflower = 8,
+				/obj/item/weapon/artifact/nightstar = 4,
+				/obj/item/weapon/artifact/soul = 2
 				)
 
 /obj/anomaly/karusel/New()
@@ -330,8 +330,9 @@
 	inactive_invisibility = 0
 	loot = list(/obj/nothing = 80,
 				/obj/item/weapon/artifact/meduza = 12,
-				/obj/item/weapon/artifact/stoneflower = 6,
-				/obj/item/weapon/artifact/nightstar = 2
+				/obj/item/weapon/artifact/stoneflower = 5.5,
+				/obj/item/weapon/artifact/nightstar = 2,
+				/obj/item/weapon/artifact/soul = 0.5
 				)
 
 /obj/anomaly/jarka
