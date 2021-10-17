@@ -270,26 +270,3 @@
 	durability = 400
 
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
-
-/obj/item/clothing/head/ssh
-	name = "SSH-68"
-	eng_desc = "The SSh-68 replaced the general-army SSh-60 helmet. It differs from its predecessor in greater durability, a large inclination of the front part and short side boards."
-	icon_state = "ssh-68"
-	item_state = "ssh-68"
-	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
-	flags = BLOCKHAIR
-	flags_inv = HIDEEARS
-	unacidable = 1
-	durability = 40
-	modifications = list("material_head" = 0)
-
-/obj/item/clothing/head/TSH-4M
-	name = "TSH-4M"
-	eng_desc = "This helmet is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects. It has poor protection for the zone's needs, but is very warm."
-	icon_state = "TSH-4M"
-	item_state = "TSH-4M"
-	armor = list(melee = 5, bullet = 5, laser = 0,energy = 0, bomb = 5, bio = 5, rad = 10, psy = 5)
-	flags = BLOCKHAIR
-	flags_inv = HIDEEARS
-	unacidable = 1
-	durability = 30
