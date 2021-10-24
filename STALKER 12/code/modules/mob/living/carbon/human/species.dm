@@ -643,6 +643,7 @@
 				H.Jitter(5)
 			hunger_rate = 3 * HUNGER_FACTOR
 		H.nutrition = max (0, H.nutrition - hunger_rate)
+		H.bowels += H.nutrition * 0.003	//For pooping
 
 	if (H.nutrition > NUTRITION_LEVEL_FULL)
 		if(H.overeatduration < 600) //capped so people don't take forever to unfat
