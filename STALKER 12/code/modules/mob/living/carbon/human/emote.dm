@@ -317,6 +317,14 @@
 				message = "<B>[src]</B> yawns."
 				m_type = 2
 
+		if ("shit","shits")
+			handle_shit()
+			m_type = 1
+
+		if ("piss","pisses")
+			handle_piss()
+			m_type = 1
+
 		if("wag","wags")
 			if(dna && dna.species && (("tail_lizard" in dna.species.mutant_bodyparts) || ((dna.features["tail_human"] != "None") && !("waggingtail_human" in dna.species.mutant_bodyparts))))
 				message = "<B>[src]</B> wags \his tail."

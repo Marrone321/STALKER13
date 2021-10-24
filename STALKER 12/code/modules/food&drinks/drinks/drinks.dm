@@ -46,6 +46,7 @@
 	var/fraction = min(gulp_size/reagents.total_volume, 1)
 	reagents.reaction(M, INGEST, fraction)
 	reagents.trans_to(M, gulp_size)
+	M.bladder += reagents.total_volume * 2	//For pissing
 	playsound(M.loc,'sound/items/drink.ogg', rand(10,50), 1)
 	return 1
 
